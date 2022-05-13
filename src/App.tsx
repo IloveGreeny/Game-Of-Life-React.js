@@ -77,7 +77,7 @@ const App: React.FC = () => {
                     }
                 }}
             >
-                {running ? "stop" : "start"}
+                {running ? "Stop" : "Start"}
             </button>
             <button
                 onClick={() => {
@@ -91,14 +91,14 @@ const App: React.FC = () => {
                     setGrid(rows);
                 }}
             >
-                random
+                Random
             </button>
             <button
                 onClick={() => {
                     setGrid(generateEmptyGrid());
                 }}
             >
-                clear
+                Clear
             </button>
             <div
                 style={{
